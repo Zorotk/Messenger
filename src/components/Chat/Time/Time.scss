@@ -1,0 +1,21 @@
+.time {
+  display: flex;
+  flex-direction: row;
+  gap: 2px;
+
+  &__value {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 9px;
+    color: #605e5c;
+    margin: 0;
+  }
+}
+
+.message__read {
+  background: url(../../../images/ReadMessage.svg) center no-repeat;
+  background-size: 16px 16px;
+  width: 16px;
+  height: 10px;
+}

@@ -1,0 +1,22 @@
+.system-message {
+  margin: 12px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 12px;
+  gap: 10px;
+  width: 86px;
+  height: 32px;
+  background: rgba(64, 126, 201, 0.08);
+  border-radius: 4px;
+
+  &__text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #201f1e;
+    margin: 0;
+  }
+}
