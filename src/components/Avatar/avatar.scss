@@ -1,7 +1,8 @@
 .component-avatar{
-
   display: flex;
   border-radius: 4px;
+  overflow: hidden;
+  flex: none;
 
   &--sm{
     width: 32px;
